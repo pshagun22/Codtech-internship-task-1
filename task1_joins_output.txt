@@ -1,0 +1,29 @@
+# Task 1: Joins Practice - Expected Output
+
+## INNER JOIN Output
+| EmployeeID | Name  | DepartmentName |
+|------------|-------|---------------|
+| 1          | Alice | HR            |
+| 2          | Bob   | IT            |
+
+## LEFT JOIN Output
+| EmployeeID | Name   | DepartmentName |
+|------------|--------|---------------|
+| 1          | Alice  | HR            |
+| 2          | Bob    | IT            |
+| 3          | Charlie| NULL          |
+
+## RIGHT JOIN Output
+| EmployeeID | Name  | DepartmentName |
+|------------|-------|---------------|
+| 1          | Alice | HR            |
+| 2          | Bob   | IT            |
+| NULL       | NULL  | Finance       |
+
+## FULL JOIN Output
+| EmployeeID | Name   | DepartmentName |
+|------------|--------|---------------|
+| 1          | Alice  | HR            |
+| 2          | Bob    | IT            |
+| 3          | Charlie| NULL          |
+| NULL       | NULL   | Finance       |
